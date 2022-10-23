@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "dl-from-foundations"
+  site-url: "https://AdityaVarmaUddaraju.github.io/dl-from-foundations"
+  description: "Deep Learning from Foundations"
+  repo-branch: main
+  repo-url: "https://github.com/AdityaVarmaUddaraju/dl-from-foundations"
