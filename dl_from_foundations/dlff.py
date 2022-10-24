@@ -11,6 +11,12 @@ def test(a,b,cmp,cname=None):
 
 def test_eq(a,b): return test(a,b,operator.eq,'==')
 
+# %% ../nbs/00_matmul.ipynb 6
+from pathlib import Path
+import pickle, gzip, math, torch, matplotlib as mpl
+import matplotlib.pyplot as plt
+from torch import tensor
+
 # %% ../nbs/00_matmul.ipynb 22
 def near(a,b): return torch.allclose(a, b, rtol=1e-3, atol=1e-5)
 def test_near(a,b): test(a,b,near)
